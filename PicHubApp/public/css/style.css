@@ -1,0 +1,53 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+}
+
+/*style for login*/
+
+.form-group {
+    margin: 6px;
+    padding: 8px;
+    width: 40%;
+}
+
+.jumbotron {
+    margin-top: 0;
+}
+
+.article {
+   
+    padding: 30px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.dashboard_heading {
+    background: #37474F;
+    width: 50%;
+    margin-right: 5px;
+    border-radius: 8px;
+    color: #e4e4e4;
+    text-align: center;
+    padding: 4px;
+    font-family: "Calibri";
+}
+
+.dashboard_heading:hover {
+    width: 100%;
+    background-color: #c4c4c4;
+    color: #263238;
+    cursor: pointer;
+    transition: width 1s;
+    transition-delay: inherit;
+}
+
+.loginHolder {
+    padding: 10px;
+}
+
+.form-group {
+    padding: 10px;
+}
+
